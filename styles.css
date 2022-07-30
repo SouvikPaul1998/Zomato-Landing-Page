@@ -68,7 +68,19 @@
     justify-content: center;
     width:50%
 }
-
+.input_container_location,
+.input_container_search{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.input_container_location{
+    width: 30%;
+    border-right: 2px solid #e0e0e0;
+}
+.input_container_search{
+    width:70%;
+}
 @media only screen and (max-width:600px) {
     .navbar_menu_container .link{
         display:none;
